@@ -1,0 +1,22 @@
+#app {
+    margin: 0;
+    padding: 0;
+}
+
+.person {
+    width: 70px;
+    height: 70px;
+    background: url('../assets/imgs/icon_zhifubao_pay.png') no-repeat;
+}
+
+.flex {
+    display: flex;
+    border: solid #000 2px;
+    width: 300px;
+    height: 100px;
+    .flex-item {
+        flex: 1;
+        background-color: #1296db;
+        border: solid #fff 1px;
+    }
+}
